@@ -78,61 +78,6 @@ Autenticação de dois fatores (2FA) opcional.
 
 Sincronização em nuvem para evitar perda de dados.
 
-📂 Entidades e Atributos
-📝 Usuário
-Id (Guid)
-
-Nome (string)
-
-Email (string)
-
-Senha (hashed string)
-
-FotoPerfil (string - opcional)
-
-DataCadastro (DateTime)
-
-PreferenciasNotificacoes (bool)
-
-⏰ Tarefa
-Id (Guid)
-
-UsuarioId (Guid)
-
-Titulo (string)
-
-Descricao (string)
-
-Categoria (enum: Estudos, Trabalho, Saúde, etc.)
-
-DataHora (DateTime)
-
-Recorrencia (enum: Nenhuma, Diária, Semanal, Mensal)
-
-Status (enum: Pendente, Concluída, Expirada)
-
-🎯 Recompensa
-Id (Guid)
-
-UsuarioId (Guid)
-
-Nome (string)
-
-PontosNecessarios (int)
-
-Resgatado (bool)
-
-📊 Relatório
-Id (Guid)
-
-UsuarioId (Guid)
-
-Periodo (enum: Diário, Semanal, Mensal)
-
-TarefasConcluidas (int)
-
-PontosAcumulados (int)
-
 🔥 Próximos Passos
 1️⃣ Definir o design e UX do aplicativo
 2️⃣ Criar a API REST no backend
