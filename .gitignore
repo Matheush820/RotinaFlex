@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build
+bin/
+obj/
+out/
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Logs e sistema
+*.log
+*.DS_Store
+*.tmp
+*.bak
